@@ -3,6 +3,7 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from './components/pages/Home';
+import Reveal from './components/pages/Reveal';
 
 
 
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Home></Home>
+  },
+  {
+    path:'/reveal',
+    element : <Reveal></Reveal>
   }
 
 ])
