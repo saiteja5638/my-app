@@ -1,0 +1,58 @@
+.full-screen-background {
+  width: 100vw;
+  /* Full viewport width */
+  height: 100vh;
+  /* Full viewport height */
+  background-image: url('/public/image.jpg');
+  /* Path to your image */
+  background-size: cover;
+  /* Scale image to cover the entire area */
+  background-repeat: no-repeat;
+  /* Prevent the image from repeating */
+  background-position: center;
+  /* Center the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.User-secret-key {
+  width: 30%;
+  /* Set the size of the blurred box */
+  height: 20%;
+  background: rgba(255, 255, 255, 0.3);
+  /* Semi-transparent white overlay */
+  backdrop-filter: blur(10px);
+  /* Blur effect on the background */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  /* Optional border for aesthetics */
+  border-radius: 15px;
+  /* Optional rounded corners */
+  display: flex;
+  /* Center content inside the box */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+  /* Text color */
+  text-align: center;
+  /* Center the text */
+
+}
+
+.Input-field{
+  width: 80%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+.Input-field:focus {
+  border-color: #4caf50; /* Green border on focus */
+  outline: none; /* Remove default focus outline */
+}
