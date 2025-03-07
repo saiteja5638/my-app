@@ -3,7 +3,7 @@
   /* Full viewport width */
   height: 100vh;
   /* Full viewport height */
-  background-image: url('/public/image.jpg');
+  background-image: url('/public/womendayimaghe.jpg');
   /* Path to your image */
   background-size: cover;
   /* Scale image to cover the entire area */
@@ -16,7 +16,6 @@
   align-items: center;
   align-content: center;
 }
-
 .User-secret-key {
   width: 30%;
   height: 20%;
